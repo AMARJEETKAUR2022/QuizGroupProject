@@ -101,12 +101,19 @@ input{
 .scoreArea{
     display: none;
 }
-/* Add this CSS at the end of your existing styles */
 
 @media screen and (min-width: 481px) and (max-width: 786px) {
+    .main-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
     .inner-div {
         width: 90%;
         padding: 1rem;
+        margin: 0;
     }
 
     .inner-div h2 {
@@ -140,14 +147,12 @@ input{
         margin-top: 1rem;
     }
 
-    .main-div {
-        padding: 1rem;
-    }
-
     .inner-div ul {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 0;
+        margin: 0;
     }
 
     .inner-div li {
