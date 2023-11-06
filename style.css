@@ -102,6 +102,10 @@ input{
     display: none;
 }
 
+body {
+    overflow: hidden;
+}
+
 @media screen and (min-width: 481px) and (max-width: 786px) {
     .main-div {
         display: flex;
