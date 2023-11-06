@@ -16,7 +16,7 @@ html{
 .main-div{
     width: 100vw;
     height: 100vh;
-    min-width: 100vw;
+    min-width: 100%;
     display: grid;
     place-items: center;
     background-color: hsl(206, 33%, 67%);
