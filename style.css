@@ -16,6 +16,7 @@ html{
 .main-div{
     width: 100vw;
     height: 100vh;
+    min-width: 100%; 
     display: grid;
     place-items: center;
     background-color: hsl(206, 33%, 67%);
@@ -111,6 +112,10 @@ html,body {
         justify-content: center;
         align-items: center;
         min-height: 100%;
+        width: 100vw;
+        height: 100vh;
+        place-items: center;
+        background-color: hsl(206, 33%, 67%);
     }
 
     .inner-div {
