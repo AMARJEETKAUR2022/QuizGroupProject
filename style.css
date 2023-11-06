@@ -102,7 +102,7 @@ input{
     display: none;
 }
 
-body {
+html,body {
     overflow: hidden;
 }
 
