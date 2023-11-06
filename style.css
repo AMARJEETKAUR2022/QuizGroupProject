@@ -103,6 +103,7 @@ input{
 }
 
 /* Add this CSS at the end of your existing styles */
+/* Add this CSS at the end of your existing styles */
 
 @media screen and (max-width: 768px) {
     .inner-div {
@@ -137,4 +138,17 @@ input{
     #showScore .btn {
         font-size: 2rem;
     }
+
+    /* Adjust the size of your radio buttons and labels */
+    input[type="radio"] {
+        transform: scale(1.5); /* Increase the size */
+        margin-right: 1rem;
+    }
+
+    /* Add some space between radio buttons and labels */
+    li {
+        display: flex;
+        align-items: center;
+    }
 }
+
